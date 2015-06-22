@@ -814,8 +814,8 @@
 
 .mif-ani-pulse,
 .mif-ani-hover-pulse:hover {
-  -webkit-animation: ani-pulse 1.7s infinite steps(8);
-  animation: ani-pulse 1.7s infinite steps(8);
+  -webkit-animation: ani-pulse 1.7s infinite;
+  animation: ani-pulse 1.7s infinite;
 }
 
 .mif-ani-pulse.mif-ani-fast,
@@ -829,6 +829,24 @@
   -webkit-animation: ani-pulse 3s infinite;
   animation: ani-pulse 3s infinite;
 }
+
+.mif-ani-pulse2,
+	.mif-ani-hover-pulse2:hover {
+	-webkit-animation: ani-pulse 1.7s infinite steps(8);
+	animation: ani-pulse 1.7s infinite steps(8);
+	}
+	
+	.mif-ani-pulse2.mif-ani-fast,
+	.mif-ani-hover-pulse2.mif-ani-fast:hover {
+	-webkit-animation: ani-pulse 1s infinite;
+	animation: ani-pulse 1s infinite;
+	}
+	
+	.mif-ani-pulse2.mif-ani-slow,
+	.mif-ani-hover-pulse2.mif-ani-slow:hover {
+	-webkit-animation: ani-pulse 3s infinite;
+	animation: ani-pulse 3s infinite;
+	}
 
 @-webkit-keyframes ani-heartbeat {
   0% {
