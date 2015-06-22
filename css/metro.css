@@ -43,7 +43,7 @@ sup {
   vertical-align: baseline;
 }
 sup {
-  top: -0.5em;
+	top: -0.5em;
 }
 sub {
   bottom: -0.25em;
@@ -14537,27 +14537,4 @@ p [data-hint] {
 .dataTables_filter input:focus {
   outline: none;
   border-color: #1d1d1d;
-}
-
-
-/* Gambiarra Logo */
-.smallheader{
-	top: 5px;
-	width: 194px; 
-	height: 24px;
-	margin-left: 25px;
-	display:inline-block;
-	background: url("http://www.sr4169.sp.caixa/portal/images/4169_tipografia_negativo_smallest.png") no-repeat;
-	position: relative;
-	z-index: 10000;
-}
-.normalheader{
-	top: 5px;
-	width: 386px; 
-	height: 45px;
-	margin-left: 25px;
-	display:inline-block;
-	background: url("http://www.sr4169.sp.caixa/portal/images/4169_tipografia_negativo_small.png") no-repeat;
-	position: relative;
-	z-index: 10000;
 }
